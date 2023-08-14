@@ -1,4 +1,6 @@
 using FormulaAirline.Database;
+using FormulaAirline.Service.Implementation;
+using FormulaAirline.Service.Interface;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -13,6 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<AirlineDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("dbConnection")));
 builder.Services.AddAutoMapper(typeof(Program));
 
+builder.Services.AddScoped<IMessageProducer, MessageProducer>();
 
 var app = builder.Build();
 

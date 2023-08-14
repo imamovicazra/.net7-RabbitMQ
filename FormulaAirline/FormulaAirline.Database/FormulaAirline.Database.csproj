@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FormulaAirline.Models\FormulaAirline.Models.csproj" />
+    <ProjectReference Include="..\FormulaAirline.Models\FormulaAirline.Model.csproj" />
   </ItemGroup>
 
 </Project>

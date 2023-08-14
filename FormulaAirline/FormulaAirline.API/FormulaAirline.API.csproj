@@ -27,6 +27,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FormulaAirline.Database\FormulaAirline.Database.csproj" />
+    <ProjectReference Include="..\FormulaAirline.Service\FormulaAirline.Service.csproj" />
   </ItemGroup>
 
 </Project>
