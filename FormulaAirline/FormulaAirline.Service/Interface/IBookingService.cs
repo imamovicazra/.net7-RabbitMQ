@@ -1,0 +1,14 @@
+﻿using FormulaAirline.Models.DTOs;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FormulaAirline.Service.Interface
+{
+    public interface IBookingService
+    {
+        public Task<BookingDTO> Create(BookingDTO model);
+    }
+}

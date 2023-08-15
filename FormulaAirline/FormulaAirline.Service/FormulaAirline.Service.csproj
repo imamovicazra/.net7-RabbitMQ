@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FormulaAirline.Database\FormulaAirline.Database.csproj" />
+    <ProjectReference Include="..\FormulaAirline.Models\FormulaAirline.Model.csproj" />
   </ItemGroup>
 
 </Project>
