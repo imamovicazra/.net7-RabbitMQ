@@ -16,6 +16,7 @@ builder.Services.AddDbContext<AirlineDbContext>(options => options.UseSqlServer(
 builder.Services.AddAutoMapper(typeof(Program));
 
 builder.Services.AddScoped<IMessageProducer, MessageProducer>();
+builder.Services.AddScoped<IBookingService, BookingService>();
 
 var app = builder.Build();
 
