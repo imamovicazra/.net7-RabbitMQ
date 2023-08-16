@@ -19,8 +19,8 @@ namespace FormulaAirline.Service.Implementation
             var connectionFactory = new ConnectionFactory()
             {
                 HostName = "localhost",
-                UserName = "admin",
-                Password = "password",
+                UserName = "user",
+                Password = "mypass",
                 VirtualHost = "/"
             };
 
